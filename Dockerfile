@@ -55,6 +55,28 @@ RUN set -ex \
     && pip install pytz \
     && pip install pyOpenSSL \
     && pip install google-api-python-client \
+    && pip install google-api-core \
+    && pip install google-auth-httplib2 \
+    && pip install google-auth \
+    && pip install google-cloud-automl \
+    && pip install google-cloud-bigtable \
+    && pip install google-cloud-bigquery-datatransfer \
+    && pip install google-cloud-container \
+    && pip install google-cloud-dataproc \
+    && pip install google-cloud-dlp \
+    && pip install google-cloud-kms \
+    && pip install google-cloud-language \
+    && pip install google-cloud-pubsub \
+    && pip install google-cloud-redis \
+    && pip install google-cloud-spanner \
+    && pip install google-cloud-speech \
+    && pip install google-cloud-storage \
+    && pip install google-cloud-tasks \
+    && pip install google-cloud-texttospeech \
+    && pip install google-cloud-translate \
+    && pip install google-cloud-videointelligence \
+    && pip install google-cloud-vision \
+    && pip install grpcio-gcp \
     && pip install ndg-httpsclient \
     && pip install pyasn1 \
     && pip install apache-airflow[crypto,celery,postgres,hive,jdbc,mysql,ssh${AIRFLOW_DEPS:+,}${AIRFLOW_DEPS}]==${AIRFLOW_VERSION} \
